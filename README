@@ -1,0 +1,21 @@
+Code contains almost no comments - I hope it is readable enough.
+
+I did not have time to implement proper main method of this program so there is nothing to execute from commandline.
+
+In case of any questions please do not hesitate to contact me.
+
+TO READ CODE
+start with AtmAcceptanceTest
+
+TO BUILD:
+execute
+> mvn clean install
+
+REQUIRES
+maven version: 3.0.3 (should work on 2.x) with default configuration in ~.m2/settings.xml
+java version:  1.6.0
+
+TODO:
+- whole feed is in memory, consider stream processing for bigger feeds
+- for the sake of simplicity all calculation are made as whole pounds (as ints),
+  to model pounds and pennies we might use number of pennies in int/long or BigDecimal
